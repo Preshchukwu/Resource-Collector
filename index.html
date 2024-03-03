@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="first-section">
+        <div class="top-text-box">
+            <p>Welcome To Your Resource Directory. Create Memories If You Wish</p>
+        </div>
+
+        <div class="create-button-box">
+            <button type="button" id="button">Create a Resource </button>
+        </div>
+    </div>
+
+    <div class="resources-section" id="resourcesSection">
+        <!-- <div class="resource">
+            <div class="name-of-website">
+                <a href="#" target="_blank"> Name Of Website</a>
+                <i class="fa-solid fa-trash"></i>
+            </div>
+
+            <div class="description-of-website">
+                <p>This website is for researching on Ux Design Principles. I love the way research is done in the website</p>
+            </div>
+        </div> -->
+
+     
+    </div>
+
+
+
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal">
+            <div class="close-icon-box">
+                <i class="fa-sharp fa-solid fa-xmark" id="closeModalIcon"></i>
+            </div>
+
+            <div class="modal-title-box">
+                <h3>Create Resource</h3>
+            </div>
+
+            <div class="modal-form">
+                <form id="resourceForm">
+                    <div class="label-and-input">
+                        <label for="nameOfWebsite"> Name Of Website</label>
+                        <input type="text" name="nameOfWebsite" id="nameOfWebsite" placeholder="e.g Data Analysis Website For Nasa">
+                    </div>
+
+                    <div class="label-and-input">
+                        <label for="linkOfWebsite"> Website Link</label>
+                        <input type="text" name="nameOfWebsite" id="linkOfWebsite" placeholder="e.g https://www.link.com">
+                    </div>
+
+                    <div class="label-and-input">
+                        <label for="descriptionOfWebsite"> Description Of Website</label>
+                        <textarea name="description" id="descriptionOfWebsite" cols="30" rows="10" placeholder="Enter Description"></textarea>
+                    </div>
+
+                    <button type="submit" id="submitButton" class="form-button">Create</button>
+                </form>
+            </div>
+        </div>
+    </div> 
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
